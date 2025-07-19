@@ -16,13 +16,13 @@ const Footer = () => {
               affordable technology solutions that help your business thrive in the digital age.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-background/60 hover:text-primary transition-colors">
+              <a href="https://facebook.com/techguardokc" className="text-background/60 hover:text-primary transition-colors" aria-label="Follow us on Facebook">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors">
+              <a href="https://twitter.com/techguardokc" className="text-background/60 hover:text-primary transition-colors" aria-label="Follow us on Twitter">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors">
+              <a href="https://linkedin.com/company/techguardokc" className="text-background/60 hover:text-primary transition-colors" aria-label="Connect with us on LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -31,12 +31,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-primary transition-colors">IT Support</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Cybersecurity</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Cloud Services</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Network Management</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">IT Consulting</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Data Management</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">IT Support</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Cybersecurity</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Cloud Services</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Network Management</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">IT Consulting</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">Data Management</a></li>
             </ul>
           </div>
 
@@ -65,15 +65,15 @@ const Footer = () => {
               © 2025 TechGuard OKC. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-background/60 hover:text-primary transition-colors text-sm">
+              <button className="text-background/60 hover:text-primary transition-colors text-sm">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors text-sm">
+              </button>
+              <button className="text-background/60 hover:text-primary transition-colors text-sm">
                 Terms of Service
-              </a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors text-sm">
+              </button>
+              <button className="text-background/60 hover:text-primary transition-colors text-sm">
                 Service Level Agreement
-              </a>
+              </button>
             </div>
           </div>
         </div>
