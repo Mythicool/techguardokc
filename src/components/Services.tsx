@@ -3,9 +3,6 @@ import {
   Monitor, 
   Shield, 
   Cloud, 
-  Wrench, 
-  Users, 
-  Database,
   ArrowRight,
   CheckCircle,
   Server,
@@ -15,9 +12,9 @@ import {
   Phone,
   Settings,
   Clock,
-  DollarSign
+  DollarSign,
+  Users
 } from 'lucide-react';
-import MagicBento from './MagicBento';
 
 
 
